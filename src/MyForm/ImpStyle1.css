@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+
+}
+
+
+.center{
+  
+    width: 400px;
+    margin: auto;
+    background: white;
+    border: 2px solid red;
+
+}
+
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom:1px solid silver;
+    background: white;
+}
+
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+     background: white;
+}
+
+form .txt_field{
+    position: relative;
+    margin: 2px 0;
+}
+.txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 25px;
+    font-size: 16px;
+    border:none;
+    background: white;
+    outline: none;
+   
+}
+
+label{
+  
+     background: white; 
+    border-bottom: 2px solid #adadad; 
+    display: block;
+    color: #adadad;  
+    margin-bottom: 25px;
+}
+
+label:hover{
+    border-bottom: 2px solid #2691d9; 
+
+}
+
+ Select{
+    background-color: none;
+     color: red; 
+
+}
+
+
+.choose{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 10px;
+
+
+}
+
+button{
+    background: red;
+    margin: auto;
+
+    background-color: black;
+border: none;
+height: 30px;
+color: white;
+
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+border:2px solid red;
+border-radius: 10px;
+
+}
+
+.showDataStyle{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.showDataStyle span{
+    margin: auto;
+    padding: auto;
+
+}
+
+.showData{
+    background: black;
+    margin-bottom: 20px;
+
+}
+.showData h3{
+    text-align: center;
+    margin-top: 20px;
+
+}
