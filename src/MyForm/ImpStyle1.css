@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +10,7 @@
 
 .center{
   
-    width: 400px;
+  max-width: 500px;
     margin: auto;
     background: white;
     border: 2px solid red;
@@ -109,10 +110,16 @@ border-radius: 10px;
 .showData{
     background: black;
     margin-bottom: 20px;
+    width: 100%;
 
 }
 .showData h3{
     text-align: center;
     margin-top: 20px;
 
+}
+
+.show{
+    color:black;
+    background: white;
 }
