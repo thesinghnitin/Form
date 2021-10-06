@@ -311,7 +311,8 @@ else{
 
             <div className="txt_field">
     
-                <input type="text" autoComplete="off" required
+                <input  type="tel"   pattern="[0-9]{10}"  maxLength="10" autoComplete="off" required
+                placeholder="Enter your 10 digit number"
                  value=  {order.Contact}
                 onChange= {handleInput}
                  name="Contact" id="Contact number"/>
@@ -374,7 +375,7 @@ else{
 
             <div className="txt_field">
              
-                <input type="text" autoComplete="off" required
+                <input type="tel"   pattern="[0-9]{6}"  maxLength="6" autoComplete="off" required
                  value=  {order.Pincode}
                  onChange= {handleInput}
                   name="Pincode" id="Pincode"/>
